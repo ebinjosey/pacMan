@@ -1,14 +1,9 @@
 import copy
 from board import boards
 import pygame
-import os
 import math
 
 pygame.init()
-
-# os.environ['SDL_VIDEO_CENTERED'] = '1'
-# info = pygame.display.Info()
-# screen_width, screen_height = info.current_w, info.current_h
 
 font = pygame.font.SysFont('RETRO GAMING.ttf', 24)
 width = 900
